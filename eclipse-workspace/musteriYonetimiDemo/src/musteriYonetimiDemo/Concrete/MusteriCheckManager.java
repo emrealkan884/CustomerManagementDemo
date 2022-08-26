@@ -7,7 +7,7 @@ public class MusteriCheckManager implements IMusteriCheckService {
 
 	@Override
 	public boolean checkIfRealPerson(Musteri musteri) {
-		if(musteri.getTcKimlik() == "16574141346") {
+		if(musteri.getTcKimlik() == "12345678910") {
 			return true;
 		}
 		else {
